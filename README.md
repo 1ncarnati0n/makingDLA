@@ -19,14 +19,37 @@ DLA는 눈 결정의 현미경 사진을 통해 가장 쉽게 관측할 수 있�
 
 <br>
 
+
 ### Process
 
 **step 01** <br>
 Get a random point on a given boundary. This point will gradually approach to an attractor as it wander within the boundary. The attractor will be the first aggregate as it still serve as an attractor.
+![image]()
 
 **step 02** <br>
 When wandering a particle, keep the random angle less than 180 degrees to force the particle move toward the attractor. Otherwise, the particle might be lost in the space.
+![image]()
 
 **step 03** <br>
-Every time moving the particle, check the distance between the two points to see if 
-they are close enough to get merged. 
+Every time moving the particle, check the distance between the two points to see if they are close enough to get merged. 
+![image]()
+
+**step 04** <br>
+If they are not close enough, then keep the particle wandering. 
+![image]()
+
+**step 05** <br>
+If yes, merge two points, connecting them with a single line. Two points form a new set of aggregate. 
+![image]()
+
+**step 06** <br>
+Get another random point on the boundary and get it wander.
+![image]()
+
+**step 07** <br>
+Check distance from the wandering particle to each aggregate every time the particle moves. If any of the two distance is within the threshold, merge the particle to the nearer aggregate. If none of the two meets the condition, keep it wandering.
+![image]()
+
+**step 08** <br>
+Repeat until you like the pattern.
+![image]()
