@@ -16,10 +16,10 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 ## Algorithm of Diffusion-Limited Aggregation?
 브라운 운동으로 인해 임의운동을 하는 입자들이 서로 뭉쳐서 입자들의 집합체를 형성하는 과정 (위키백과에서 발췌). 이 과정은 크게 두 가지로 나눌 수 있습니다.
 
-- **Diffusion (Wandering Particle)** <br> : 두 점으로 시작합니다. 하나는 끌어당기는 역할을 하는 상태 (static working as an atteractor) 이며, 다른 하나는 시간이 지남에 따라 끌어당기는 쪽으로 서서히 접근하는 방황하는 파티클 Wandering particle 입니다.
+- **Diffusion (Wandering Particle)** <br> : 두 점으로 시작합니다. 하나는 끌어당기는 역할을 하는 상태 (static working as an atteractor) 이며, 다른 하나는 시간이 지남에 따라 끌어당기는 쪽으로 서서히 접근하는 배회하는 파티클 Wandering particle 입니다.
 ![image]()
 
-- **Aggregation (Sticking Particles within threshold)** <br> : 두 지점이 충분히 가까운지 지속적으로 확인한다. 임계값Threshold에 도달하면 방황을 멈추고 두 점을 하나의 선으로 연결하여 병합, 그렇지 않으면 파티클Particles이 임계값에 도달할 때까지 계속 방황하도록 놓아둔다.
+- **Aggregation (Sticking Particles within threshold)** <br> : 두 지점이 충분히 가까운지 지속적으로 확인한다. 임계값Threshold에 도달하면 방황을 멈추고 두 점을 하나의 선으로 연결하여 병합, 그렇지 않으면 파티클Particles이 임계값에 도달할 때까지 계속 배회하도록 놓아둔다.
 ![image]()
 
 <br>
@@ -60,7 +60,7 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 ![image]()
 
 <br>
-s
+
 ## **implement** 
 by rhino3d grasshopper and Python
 
