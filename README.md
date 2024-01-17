@@ -40,6 +40,11 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 
 <br>
 
+## Result (Simulation)
+<p align="center">
+<img src="assets/result.gif" width="420">
+</p>
+
 ## Process
 
 **step 01** <br>
@@ -92,22 +97,8 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 ## **Implement** 
 by rhino3d grasshopper and Python
 <p align="center">
-<img src="assets/record02.gif" width="920">
+<img src="assets/simulation.gif" width="920">
 </p>
-
-<p align="center">
-<img src="assets/record04.gif" width="920">
-</p>
-
-<p align="center">
-<img src="assets/record05.gif" width="920">
-</p>
-
-<p align="center">
-<img src="assets/record06.gif" width="920">
-</p>
-
-## **Result Pattern**
 
 <p align="center">
 <img src="assets/result.gif" width="620">

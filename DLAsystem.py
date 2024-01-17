@@ -13,6 +13,7 @@ import random
 import math
 
 # input variables
+w = _Weight
 go = _Go
 crv = _Simulation
 seed = _Seed
@@ -38,7 +39,7 @@ def get_vector(point_s, point_e):
     return vector
     
 def move_point(point, vector):
-    point = point + vector * 1.5 # 가중치
+    point = point + vector * w # 가중치
     return point
     
 def get_distance(point_s, point_e):
