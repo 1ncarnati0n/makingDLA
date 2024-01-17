@@ -81,7 +81,7 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 **step 07** <br>
 입자가 움직일 때마다 돌아다니는 입자에서 각 병합된 집합까지의 거리를 확인합니다. 두 거리 중 하나라도 임계값 내에 있으면 입자를 더 가까운 집합에 병합합니다. 둘 중 어느 것도 조건을 충족하지 않으면 파티클을 계속 돌아다니게 합니다.
 <p align="center">
-<img src="assets/07.png" width="420">
+<img src="assets/p07.png" width="420">
 </p>
 
 **step 08** <br>
@@ -91,3 +91,18 @@ Diffusion Limited Aggregation은 겨울철 눈 결정을 현미경으로 바라�
 
 ## **Implement** 
 by rhino3d grasshopper and Python
+<p align="center">
+<img src="assets/record02.gif" width="920">
+</p>
+
+<p align="center">
+<img src="assets/record04.gif" width="920">
+</p>
+
+<p align="center">
+<img src="assets/record05.gif" width="920">
+</p>
+
+<p align="center">
+<img src="assets/record06.gif" width="920">
+</p>
