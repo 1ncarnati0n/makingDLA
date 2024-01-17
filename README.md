@@ -106,3 +106,9 @@ by rhino3d grasshopper and Python
 <p align="center">
 <img src="assets/record06.gif" width="920">
 </p>
+
+## **Result Pattern**
+
+<p align="center">
+<img src="assets/result.png" width="620">
+</p>
