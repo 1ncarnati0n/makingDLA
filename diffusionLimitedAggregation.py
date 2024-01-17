@@ -40,7 +40,7 @@ def MovePoint(pnt, trnsVctr):
     return pnt
     
 def GetDistance(pntS, pntE):
-    dstnc = pntS.DistanceTo(pntE)
+    dstnc = pntS.DistanceTo(pntE)ls
     return dstnc
     
 def GetClosestPoint(pnt, aggrgtLst):

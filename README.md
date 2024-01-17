@@ -110,5 +110,5 @@ by rhino3d grasshopper and Python
 ## **Result Pattern**
 
 <p align="center">
-<img src="assets/result.png" width="620">
+<img src="assets/result.gif" width="620">
 </p>
